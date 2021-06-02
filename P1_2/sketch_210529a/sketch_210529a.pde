@@ -4,7 +4,6 @@ int deltaX = 4;
 void setup() {
   size(1800, 800);
   deltaX = width/integerArray.length;
-  System.out.println(deltaX);
   
   for(int i = 0; i < integerArray.length; i++){
     int randomNumbers = int(random(0, height));
